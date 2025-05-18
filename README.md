@@ -23,27 +23,4 @@ Technologies Used
 - Jinja2 templating
 
 
-circular-generator-app/
-│
-├── templates/
-│ ├── login.html
-│ ├── signup.html
-│ ├── dashboard.html
-│
-├── static/
-│ └── (optional for styles/images)
-│
-├── generated/
-│ └── circular_username.pdf
-│
-├── app.py
-├── users.db
-└── README.md
 
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-pip install flask fpdf werkzeug
-
-
-python app.py
