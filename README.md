@@ -39,3 +39,11 @@ circular-generator-app/
 ├── app.py
 ├── users.db
 └── README.md
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+pip install flask fpdf werkzeug
+
+
+python app.py
