@@ -21,3 +21,21 @@ Technologies Used
 - FPDF (for PDF generation)
 - HTML & CSS (with Roboto font)
 - Jinja2 templating
+
+
+circular-generator-app/
+│
+├── templates/
+│ ├── login.html
+│ ├── signup.html
+│ ├── dashboard.html
+│
+├── static/
+│ └── (optional for styles/images)
+│
+├── generated/
+│ └── circular_username.pdf
+│
+├── app.py
+├── users.db
+└── README.md
